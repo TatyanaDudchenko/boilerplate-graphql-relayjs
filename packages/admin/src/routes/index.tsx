@@ -2,7 +2,6 @@ import React from 'react';
 import { RouteObject } from 'react-router-dom';
 import loadable from '@loadable/component';
 
-import usersRouter from './users-router';
 import pagesRouter from './pages-router';
 import dashboardRouter from './dashboard-router';
 import clientsRouter from '~/routes/clients-router';
@@ -16,7 +15,7 @@ export const routes: RouteObject[] = [
     path: '/',
     caseSensitive: true,
     element: <AdminTemplate />,
-    children: [usersRouter, pagesRouter, dashboardRouter, clientsRouter],
+    children: [pagesRouter, dashboardRouter, clientsRouter],
   },
 
   {
