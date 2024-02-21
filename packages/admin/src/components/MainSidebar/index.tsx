@@ -92,6 +92,18 @@ const MainSidebar: React.ForwardRefRenderFunction<HTMLDivElement, MainSidebarPro
           />
         </MainSidebarItem>
 
+        <MainSidebarItem
+          icon={<ShopMarkerIcon />}
+          isActive={matchPath('/contractors/', pathname) !== null}
+          label={<FormattedMessage defaultMessage="Подрядчики" />}
+        >
+          <MainSidebarSubitem
+            location="/contractors/list"
+            isActive={matchPath('/contractors/list/', pathname) !== null}
+            label={<FormattedMessage defaultMessage="Список подрядчиков" />}
+          />
+        </MainSidebarItem>
+
         {/* <MainSidebarItem
           location="/orders/list"
           icon={<ShopMarkerIcon />}

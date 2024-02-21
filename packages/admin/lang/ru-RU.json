@@ -8,17 +8,20 @@
   "1/ISJU": {
     "defaultMessage": "Поле ввода пароля"
   },
-  "3iNUB7": {
-    "defaultMessage": "Заявки"
-  },
   "4X5Kci": {
     "defaultMessage": "Юр. статус клиента"
+  },
+  "4zSIV0": {
+    "defaultMessage": "Список подрядчиков"
   },
   "6PiPq8": {
     "defaultMessage": "Действующие"
   },
   "8B5OJY": {
     "defaultMessage": "Неверный логин или пароль"
+  },
+  "CBrHdk": {
+    "defaultMessage": "Подрядчики"
   },
   "J76yQ6": {
     "defaultMessage": "Все права защищены"
@@ -34,9 +37,6 @@
   },
   "PuZv4f": {
     "defaultMessage": "Пароль"
-  },
-  "SQmWr0": {
-    "defaultMessage": "Разделы сайта"
   },
   "UKU0qj": {
     "defaultMessage": "Введите пароль"
@@ -88,9 +88,6 @@
   },
   "y+Etaz": {
     "defaultMessage": "Физ. лицо"
-  },
-  "ynMVPX": {
-    "defaultMessage": "Пользователи"
   },
   "z7TYRU": {
     "defaultMessage": "Авторизация пройдена успешно"
