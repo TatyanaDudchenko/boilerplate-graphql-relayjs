@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 const ContractorsList: React.FC = () => {
-  return <></>;
+  return <>Здесь будет выводиться список подрядчиков</>;
 };
 
 export default ContractorsList;
