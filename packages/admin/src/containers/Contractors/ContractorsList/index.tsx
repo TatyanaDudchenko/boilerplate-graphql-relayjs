@@ -1,6 +1,11 @@
 import * as React from 'react';
 
-const ContractorsList: React.FC = () => {
+interface ContractorsListProps {
+  readonly name?: string;
+}
+
+const ContractorsList: React.FC<ContractorsListProps> = props => {
+  const { name } = props;
   return <>Здесь будет выводиться список подрядчиков</>;
 };
 
